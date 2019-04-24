@@ -1,0 +1,20 @@
+body {background: #f8f8f8;}
+
+.product_name {font-style:italic; 
+	font-size: 28px; 
+	text-align: left;
+	}
+.product-item {border-style: double;
+	border-color:#707070;
+	}
+.product-item:hover {border-color:#f8f8f8;
+	}
+
+
+.product-item {display: inline-flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content:space-around;
+	width:250px;  
+  	}
+
