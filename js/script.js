@@ -11,7 +11,7 @@ const products = [
 const renderProduct = (title, price) => {
 	return `<div class="product-item">
 				<h3>${title}</h3>
-				<h3>${price}</h3>
+				<p>${price}</p>
 			</div>`
 };
 
@@ -21,3 +21,5 @@ const renderPage = list => {
 };
 
 renderPage (products);
+
+
