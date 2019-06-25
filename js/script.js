@@ -12,6 +12,7 @@ const renderProduct = (title, price) => {
 	return `<div class="product-item">
 				<h3>${title}</h3>
 				<p>${price}</p>
+				<button class="add-goods-button">Добавить</button>
 			</div>`
 };
 
